@@ -1,9 +1,15 @@
-
+import Navbar from "./components/navbar/navbar";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
     <div className="App">
-      <h1>Good Lives</h1>
+      <div>
+        <>
+          <Navbar />
+          <Footer/>
+        </>
+      </div>
     </div>
   );
 }
