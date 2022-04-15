@@ -5,13 +5,14 @@ import { Box, Button, makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles({
   signup_button: {
-    backgroundColor: "#FF6C37",
+    backgroundColor: "#7C8BD3",
     color: "#fff",
     fontWeight: 800,
     width: "20vw",
     padding: "0.7rem",
+    marginTop: '2rem',
     "&:hover": {
-      backgroundColor: "#000",
+      backgroundColor: "#FF91A3",
     },
   },
   link: {
@@ -33,7 +34,7 @@ const useStyles = makeStyles({
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "space-around",
-    backgroundColor: "#f2f2f2",
+    backgroundColor: "#fff",
   },
   signup_left: {
     width: "50vw",
@@ -44,14 +45,28 @@ const useStyles = makeStyles({
     width: "90vw",
     height: "70vh",
     display: "flex",
-    backgroundColor: "#FF6C37",
+    backgroundColor: "#B9E1EF",
     margin: "auto",
   },
   main_container: {
     height: "90vh",
     display: "flex",
-    backgroundColor: "#2C2C2C",
+    backgroundColor: "#f2f2f2",
   },
+  signup_heading:{
+    fontSize: '40px',
+    fontWeight: 'bold',
+  },
+  signup_subheading:{
+    fontSize: '18px',
+    fontWeight: 'medium',
+    padding: '2rem 4rem',
+  },
+  points:{
+    fontSize: '18px',
+    fontWeight: "bold",
+    padding: "0.2rem",
+  }
 });
 
 function Signup() {

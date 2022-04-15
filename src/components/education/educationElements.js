@@ -20,11 +20,12 @@ export const Heading = styled.div`
     display: flex;
     color: #000;
     font-size: 45px;
+    font-weight: bold;
 `
 
 export const CardEducation = styled.div`
     width: 65%;
-    height: 30vh;
+    height: 40vh;
     border-radius: 16px;
     /* background: #004E64; */
     background: linear-gradient(259.12deg, #97A3E1 9.42%, #7C8BD3 73.13%);

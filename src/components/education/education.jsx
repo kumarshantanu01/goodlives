@@ -25,7 +25,7 @@ const Education = () => {
             <Imagesection>
               <div className="image">
                 <img
-                  src="https://res.cloudinary.com/dzbdnlr0f/image/upload/v1649962592/good%20lives/WhatsApp-Image-2022-01-25-at-9.09.35-PM-4_1_pm2eej.jpg"
+                  src="https://res.cloudinary.com/dzbdnlr0f/image/upload/v1650040501/good%20lives/WhatsApp-Image-2022-01-25-at-9.09_tf2zxw.png"
                   alt="nitr"
                 ></img>
               </div>
@@ -39,7 +39,7 @@ const Education = () => {
                 “Stop doubting yourself, study hard, and make it happen”
               </Branch>
               <Readmore>
-                <a href="sxuhd">Read More</a>
+                Read More
               </Readmore>
             </TextSection>
           </CardEducation>
@@ -48,7 +48,7 @@ const Education = () => {
             <Imagesection>
               <div className="image">
                 <img
-                  src="https://res.cloudinary.com/dzbdnlr0f/image/upload/v1649963287/good%20lives/WhatsApp-Image-2022-01-25-at-9.09.35-PM-1_wngmt9.jpg"
+                  src="https://res.cloudinary.com/dzbdnlr0f/image/upload/v1650040401/good%20lives/WhatsApp-Image-2022-01-25-at-9.09_rp6woq.png"
                   alt="nitr"
                 ></img>
               </div>
@@ -62,7 +62,7 @@ const Education = () => {
               “In therapy, I see myself in the mirror differently.”
               </Branch>
               <Readmore>
-                <a href="sxuhd">Read More</a>
+                Read More
               </Readmore>
             </TextSection>
           </CardEducation>
