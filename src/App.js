@@ -6,6 +6,7 @@ import Categroies from "./components/categroies/categroies";
 import Working from "./components/working/working";
 import Signup from "./components/signup/signup";
 import Hero2 from "./components/hero2/hero2";
+import Home from "./components/hero/hero";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <div>
         <>
           <Navbar />
+          <Home/>
           <Hero2/>
           <Working/>
           <Signup/>

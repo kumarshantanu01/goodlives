@@ -7,7 +7,7 @@ export default function working() {
       <div className="working">
         <div className="working_heading">How GoodLives Work</div>
         <div className="working_cards">
-          <div className="working_card">
+          <div className="working_card1">
             <div className="working_card_image">
               <img src="https://res.cloudinary.com/dzbdnlr0f/image/upload/v1649967061/good%20lives/talking_k9pxly.png" alt="" />
             </div>
@@ -20,7 +20,7 @@ export default function working() {
             </div>
           </div>
 
-          <div className="working_card">
+          <div className="working_card2">
             <div className="working_card_image">
               <img src="https://res.cloudinary.com/dzbdnlr0f/image/upload/v1649967060/good%20lives/alone_thjbqc.jpg" alt="" />
             </div>
@@ -33,7 +33,7 @@ export default function working() {
             </div>
           </div>
 
-          <div className="working_card">
+          <div className="working_card3">
             <div className="working_card_image">
               <img src="https://res.cloudinary.com/dzbdnlr0f/image/upload/v1649967059/good%20lives/istockphoto-1145914853-612x612-removebg-preview-1-300x269_czuwcg.png" alt="" />
             </div>
