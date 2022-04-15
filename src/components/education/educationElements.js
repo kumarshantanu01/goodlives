@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Educationsection  = styled.div`
-    background-color: #161625;
+    background-color: #EAF3FA;
 `
 
 export const Educationsectiontop = styled.div`
@@ -18,7 +18,7 @@ export const Educationsectionbottom = styled.div`
 export const Heading = styled.div`
     justify-content: center;
     display: flex;
-    color: #C6FF00;
+    color: #000;
     font-size: 45px;
 `
 
@@ -27,7 +27,7 @@ export const CardEducation = styled.div`
     height: 30vh;
     border-radius: 16px;
     /* background: #004E64; */
-    background: linear-gradient(259.12deg, #007C78 9.42%, #002539 73.13%);
+    background: linear-gradient(259.12deg, #97A3E1 9.42%, #7C8BD3 73.13%);
     display: flex;
     flex-direction: row;
     margin: 2rem 0 2rem 0;
@@ -45,6 +45,7 @@ export const Imagesection = styled.div`
     overflow: hidden;
     display: flex;
     justify-content: center;
+    object-fit: cover;
     
     @media only screen and (max-width: 900px) {
     width: 100%;

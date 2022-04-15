@@ -10,6 +10,7 @@
 
 .categroies_heading{
     font-size: 34px;
+    font-weight: 600;
 }
 
 .categroies_cards{
@@ -19,10 +20,9 @@
     align-items: center;
 }
 
-.categroies_card{
+.categroies_card1, .categroies_card2, .categroies_card3, .categroies_card4, .categroies_card5{
     width: 350px;
     height: 100px;
-    background-color: #f2f2f2;
     margin: 1rem;
     cursor: pointer;
     display: flex;
@@ -32,7 +32,26 @@
     border-radius: 14px;
     box-shadow: 0.1rem 0.1rem 0.1rem rgb(143, 155, 188);
 }
+.categroies_card1{
+    background-color: #EAF3FA;
+}
 
-.categroies_card:hover{
+.categroies_card2{
+    background-color: #FFE5E6;
+}
+
+.categroies_card3{
+    background-color: #B9E1EF;
+}
+
+.categroies_card4{
+    background-color: #B3DFAB;
+}
+
+.categroies_card5{
+    background-color: #97A3E1;
+}
+
+.categroies_card1, .categroies_card2, .categroies_card3, .categroies_card4, .categroies_card5{
     box-shadow: 0.6rem 0.6rem 0.5rem rgb(143, 155, 188);
 }
