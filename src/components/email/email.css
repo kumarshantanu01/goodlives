@@ -1,0 +1,70 @@
+.email{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    background-color: #f2f2f2;
+}
+
+
+.email_box{
+    width: 60%;
+    padding: 5rem 1rem;
+    border-radius: 20px;
+    background: linear-gradient(281.6deg, #173AB7 0.22%, #5271E0 100.26%);
+    height: 8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0.6rem 0.6rem 0.5rem #c9d6f6, -0.6rem -0.4rem 0.5rem #d0ddfe;
+}
+
+.email_box:hover{
+    box-shadow: 0.6rem 0.6rem 0.5rem rgb(143, 155, 188), -0.6rem -0.4rem 0.5rem #c7d0e7;
+}
+
+.email_heading_section{
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.email_heading_section h2{
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.email_button_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.subscribe_button{
+    background: linear-gradient(281.6deg, #8a93b2 0.22%, #455eb6 100.26%);
+    border-radius: 20px;
+    width: 10rem;
+    padding: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.subscribe_button:hover{
+    color: #173AB7;
+    background: #f2f2f2;
+}
+
+.email_input{
+    width: 25rem;
+    border-radius: 20px;
+    height: fit-content;
+    min-height: 2rem;
+    padding-left: 1rem;
+    font-size: 0.9em;
+}
